@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        maven {
+            allowInsecureProtocol true
+            credentials{
+                username repoUsername
+                password repoPassword
+            }
+            url 'http://localhost:8081/repository/nexus-repository/'
+        }
+    }
+}
+
+rootProject.name = 'springboot-nexus'
