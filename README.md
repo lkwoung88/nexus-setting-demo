@@ -1,2 +1,2 @@
-# nexus-study
+# nexus-setting
 nexus-repository setting 
